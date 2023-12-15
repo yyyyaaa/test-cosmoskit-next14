@@ -101,6 +101,8 @@ export const Connect = (props: ConnectProps) => {
         <Box display="flex" justifyContent="center" pt="$10">
           {connectionButton}
         </Box>
+
+        {props.children}
       </Stack>
     </Box>
   );
